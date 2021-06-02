@@ -1,4 +1,4 @@
 module.exports = {
-  dbURL: 'mongodb+srv://puki:puki123@cluster0.oaihw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
-  dbName: 'airdod'
+  dbURL: 'mongodb+srv://homie:Aa12345!@cluster0.o6ly1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+  dbName: 'homie'
 }
