@@ -12,10 +12,14 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
+    
     const criteria = _buildCriteria(filterBy)
+    console.log('BACK', criteria)
     try {
         const collection = await dbService.getCollection('stay')
-        var stays = await collection.find(criteria).toArray()
+        let stays = await collection.find(criteria).toArray()
+        console.log('BACK', stays)
+
         // stays = stays.map(stay => stay)
         return stays
     } catch (err) {
@@ -78,19 +82,16 @@ async function add(stay) {
 
 function _buildCriteria(filterBy) {
     const criteria = {}
-    if (filterBy.txt) {
-        const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
+    if (filterBy.city) {
+        const txtCriteria = { $regex: filterBy.city, $options: 'i' }
         criteria.$or = [
             {
-                username: txtCriteria
+                city: txtCriteria
             },
-            {
-                fullname: txtCriteria
-            }
+            // {
+            //     fullname: txtCriteria
+            // }
         ]
-    }
-    if (filterBy.minBalance) {
-        criteria.score = { $gte: filterBy.minBalance }
     }
     return criteria
 }
