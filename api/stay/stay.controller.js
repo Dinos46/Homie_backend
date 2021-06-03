@@ -13,11 +13,17 @@ async function getStay(req, res) {
 }
 
 async function getStays(req, res) {
+    console.log('reqqqq', req.query)
     try {
         const filterBy = {
             city: req.query?.city || '',
-            guest: +req.query?.guest || 0
+            guest: +req.query?.guest || 0,
+            // types: req.query?.types || '',
+            // amenities: req.query?.amenities || '',
+            // rules: req.query?.rules || '',
+            tv: req.query?.tv || ''
         }
+        console.log('filterBy', filterBy)
         const stays = await stayService.query(filterBy)
         res.send(stays)
     } catch (err) {
