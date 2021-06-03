@@ -12,32 +12,10 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-<<<<<<< HEAD
-console.log(filterBy)
-=======
-<<<<<<< HEAD
-    console.log('filterBy critiria', filterBy)
-=======
-
->>>>>>> 6e4dfd0d7e556f256fcec3538841452b4a46d3c8
->>>>>>> aabfc237cfd44f942a15cc77d5e23c65e147ff42
     const criteria = _buildCriteria(filterBy)
     try {
         const collection = await dbService.getCollection('stay')
-<<<<<<< HEAD
-        return  await collection.find(criteria).toArray()
-=======
-<<<<<<< HEAD
-        var stays = await collection.find(criteria).toArray()
-        stays = stays.map(stay => stay)
-=======
-        let stays = await collection.find(criteria).toArray()
-        console.log('BACK', stays)
-
-        // stays = stays.map(stay => stay)
->>>>>>> 6e4dfd0d7e556f256fcec3538841452b4a46d3c8
-        return stays
->>>>>>> aabfc237cfd44f942a15cc77d5e23c65e147ff42
+        return await collection.find(criteria).toArray()
     } catch (err) {
         logger.error('cannot find stays', err)
         throw err
@@ -97,19 +75,6 @@ async function add(stay) {
 }
 
 function _buildCriteria(filterBy) {
-<<<<<<< HEAD
-    const criteria = {}
-    if (!filterBy.city) {
-        const txtCriteria = { $regex: filterBy.city, $options: 'i' }
-        criteria.$or = [
-            {
-                name: txtCriteria
-            },
-            {
-                fullname: txtCriteria
-            }
-        ]
-=======
     const { city } = filterBy;
     let criteria = {}
     // if (city) {
@@ -118,7 +83,6 @@ function _buildCriteria(filterBy) {
     if (city) {
         // const txtCriteria = { $regex: city, $options: 'i' }
         criteria = { "loc.city": city }
->>>>>>> aabfc237cfd44f942a15cc77d5e23c65e147ff42
     }
     return criteria
 }
