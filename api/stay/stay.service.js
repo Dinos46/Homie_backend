@@ -12,16 +12,11 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-    
+console.log(filterBy)
     const criteria = _buildCriteria(filterBy)
-    console.log('BACK', criteria)
     try {
         const collection = await dbService.getCollection('stay')
-        let stays = await collection.find(criteria).toArray()
-        console.log('BACK', stays)
-
-        // stays = stays.map(stay => stay)
-        return stays
+        return  await collection.find(criteria).toArray()
     } catch (err) {
         logger.error('cannot find stays', err)
         throw err
@@ -70,7 +65,7 @@ async function update(stay) {
 async function add(stay) {
     try {
         // peek only updatable fields!
-        const stayToAdd = {...stay}
+        const stayToAdd = { ...stay }
         const collection = await dbService.getCollection('stay')
         await collection.insertOne(stayToAdd)
         return stayToAdd
@@ -82,15 +77,15 @@ async function add(stay) {
 
 function _buildCriteria(filterBy) {
     const criteria = {}
-    if (filterBy.city) {
+    if (!filterBy.city) {
         const txtCriteria = { $regex: filterBy.city, $options: 'i' }
         criteria.$or = [
             {
-                city: txtCriteria
+                name: txtCriteria
             },
-            // {
-            //     fullname: txtCriteria
-            // }
+            {
+                fullname: txtCriteria
+            }
         ]
     }
     return criteria

@@ -41,7 +41,7 @@ async function addStay(req, res) {
         const stay = req.body
         const stayToAdd = await stayService.add(stay)
         res.send(stayToAdd)
-        // socketService.broadcast({ type: 'toy-added', data: toy, to: toyToAdd._id })
+        // socketService.broadcast({ type: 'stay-added', data: stay, to: stayToAdd._id })
     } catch (err) {
         logger.error('Failed to add stay', err)
         res.status(500).send({ err: 'Failed to add stay' })
@@ -53,7 +53,7 @@ async function updateStay(req, res) {
         const stay = req.body
         const savedStay = await stayService.update(stay)
         res.send(savedStay)
-        // socketService.broadcast({type: 'stay-updated', data: review, to:savedUser._id})
+        // socketService.broadcast({type: 'stay-updated', data: , to:savedStay._id})
     } catch (err) {
         logger.error('Failed to update stay', err)
         res.status(500).send({ err: 'Failed to update stay' })
