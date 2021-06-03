@@ -63,7 +63,6 @@
 1.6.2021, 23:40:21 - INFO - Server is running on port: 3030 
 2.6.2021, 0:31:19 - INFO - Server is running on port: 3030 
 2.6.2021, 0:33:49 - INFO - Server is running on port: 3030 
-<<<<<<< HEAD
 2.6.2021, 12:57:56 - INFO - Server is running on port: 3030 
 2.6.2021, 15:08:12 - INFO - Server is running on port: 3030 
 2.6.2021, 15:21:17 - ERROR - while finding user 10006548 | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
@@ -128,40 +127,5 @@
 3.6.2021, 12:02:07 - INFO - Server is running on port: 3030 
 3.6.2021, 12:10:08 - INFO - Server is running on port: 3030 
 3.6.2021, 12:10:14 - INFO - Server is running on port: 3030 
-=======
-2.6.2021, 13:13:38 - INFO - Server is running on port: 3030 
-2.6.2021, 14:02:47 - INFO - Server is running on port: 3030 
-2.6.2021, 14:08:59 - INFO - Server is running on port: 3030 
-2.6.2021, 14:49:50 - INFO - Server is running on port: 3030 
-2.6.2021, 15:29:33 - INFO - Server is running on port: 3030 
-2.6.2021, 15:33:30 - INFO - Server is running on port: 3030 
-2.6.2021, 15:33:48 - DEBUG - auth.service - login with username:  
-2.6.2021, 15:33:48 - ERROR - Failed to Login TypeError: Cannot read property 'password' of null 
-2.6.2021, 15:34:46 - DEBUG - auth.service - login with username: dinos 
-2.6.2021, 15:34:46 - ERROR - Failed to Login Invalid username or password 
-2.6.2021, 15:36:19 - DEBUG - auth.service - login with username: dinos 
-2.6.2021, 15:36:19 - ERROR - Failed to Login Invalid username or password 
-2.6.2021, 15:37:50 - INFO - Server is running on port: 3030 
-2.6.2021, 15:37:56 - DEBUG - auth.service - login with username: dinos 
-2.6.2021, 15:37:56 - ERROR - Failed to Login Invalid username or password 
-2.6.2021, 15:40:42 - INFO - Server is running on port: 3030 
-2.6.2021, 15:40:48 - DEBUG - auth.service - login with username: dinos 
-2.6.2021, 15:43:04 - DEBUG - auth.service - login with username:  
-2.6.2021, 15:43:04 - ERROR - Failed to Login Invalid username or password 
-2.6.2021, 15:43:24 - DEBUG - auth.service - login with username: omri 
-2.6.2021, 15:45:51 - DEBUG - auth.service - signup with username: puki, fullname: puki ben puk 
-2.6.2021, 15:45:52 - DEBUG - auth.route - new account created: {"username":"puki","password":"$2b$10$1V7UeDv7I0qIE.K5YTk4autVyt.Othil4vgY/KewPpVoq9dvzjYU.","fullname":"puki ben puk","_id":"60b77d7f6776ca309c018c6f"} 
-2.6.2021, 15:45:52 - DEBUG - auth.service - login with username: puki 
-2.6.2021, 15:48:45 - DEBUG - auth.service - signup with username: puki, fullname: puki ben puk 
-2.6.2021, 15:48:46 - DEBUG - auth.route - new account created: {"username":"puki","password":"$2b$10$o8oBvS84A7nW3q/l.Fm3iu1H7L5ZnQiC8zV4SFPscA419.pIsqWI6","fullname":"puki ben puk","_id":"60b77e2e6776ca309c018c70"} 
-2.6.2021, 15:48:46 - DEBUG - auth.service - login with username: puki 
-2.6.2021, 15:59:17 - DEBUG - auth.service - signup with username: karish, fullname: karish kabel 
-2.6.2021, 15:59:17 - DEBUG - auth.route - new account created: {"username":"karish","password":"$2b$10$DvXbGxV8iR6NZF.8CEUY2eoy4Bo4F0eZ9WPJPALl06mULH.a1L5Xm","fullname":"karish kabel","_id":"60b780a56776ca309c018c71"} 
-2.6.2021, 15:59:17 - DEBUG - auth.service - login with username: karish 
-2.6.2021, 16:42:21 - INFO - Server is running on port: 3030 
-2.6.2021, 16:51:26 - INFO - Server is running on port: 3030 
-2.6.2021, 16:57:01 - INFO - Server is running on port: 3030 
-2.6.2021, 16:57:49 - INFO - Server is running on port: 3030 
-2.6.2021, 17:03:22 - INFO - Server is running on port: 3030 
-2.6.2021, 17:06:10 - INFO - Server is running on port: 3030 
->>>>>>> 6e4dfd0d7e556f256fcec3538841452b4a46d3c8
+3.6.2021, 12:15:09 - INFO - Server is running on port: 3030 
+3.6.2021, 12:29:20 - INFO - Server is running on port: 3030 

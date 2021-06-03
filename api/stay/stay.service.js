@@ -12,24 +12,13 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-<<<<<<< HEAD
     console.log('filterBy critiria', filterBy)
-=======
-
->>>>>>> 6e4dfd0d7e556f256fcec3538841452b4a46d3c8
     const criteria = _buildCriteria(filterBy)
     console.log('BACK', criteria)
     try {
         const collection = await dbService.getCollection('stay')
-<<<<<<< HEAD
         var stays = await collection.find(criteria).toArray()
         stays = stays.map(stay => stay)
-=======
-        let stays = await collection.find(criteria).toArray()
-        console.log('BACK', stays)
-
-        // stays = stays.map(stay => stay)
->>>>>>> 6e4dfd0d7e556f256fcec3538841452b4a46d3c8
         return stays
     } catch (err) {
         logger.error('cannot find stays', err)
