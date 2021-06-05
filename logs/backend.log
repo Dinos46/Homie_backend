@@ -231,3 +231,55 @@
 >>>>>>> aabfc237cfd44f942a15cc77d5e23c65e147ff42
 3.6.2021, 13:22:41 - INFO - Server is running on port: 3030 
 3.6.2021, 15:44:02 - INFO - Server is running on port: 3030 
+4.6.2021, 13:47:17 - INFO - Server is running on port: 3030 
+4.6.2021, 19:40:02 - INFO - Server is running on port: 3030 
+5.6.2021, 19:52:54 - DEBUG - auth.service - login with username: dinos 
+5.6.2021, 19:52:55 - ERROR - Failed to Login Invalid username or password 
+5.6.2021, 19:53:35 - DEBUG - auth.service - login with username: dinos 
+5.6.2021, 19:53:35 - ERROR - Failed to Login Invalid username or password 
+5.6.2021, 19:56:12 - DEBUG - auth.service - login with username: dinos 
+5.6.2021, 19:56:13 - ERROR - Failed to Login Invalid username or password 
+5.6.2021, 19:56:51 - DEBUG - auth.service - signup with username: dinos, fullname: din 
+5.6.2021, 19:56:52 - DEBUG - auth.route - new account created: {"username":"dinos","password":"$2b$10$iknsIyG7tyV30GjBufEhquq82IJfh37.se2vxRjU514tftGxg2Eje","fullname":"din","_id":"60bbacd31c496c41bc809199"} 
+5.6.2021, 19:56:52 - DEBUG - auth.service - login with username: dinos 
+5.6.2021, 19:56:52 - ERROR - Failed to signup Invalid username or password 
+5.6.2021, 20:02:33 - INFO - Server is running on port: 3030 
+5.6.2021, 20:03:49 - INFO - Server is running on port: 3030 
+5.6.2021, 20:05:39 - DEBUG - auth.service - signup with username: dinos, fullname: zdn 
+5.6.2021, 20:05:39 - DEBUG - auth.route - new account created: {"username":"dinos","password":"$2b$10$o2GjkrqU2A/NnKRK.26q.Ooh.MweQJ9xEygOw51smI/FKL6tJnUl2","fullname":"zdn","_id":"60bbaee3317b3509c83310f3"} 
+5.6.2021, 20:05:39 - DEBUG - auth.service - login with username: dinos 
+5.6.2021, 20:05:40 - ERROR - Failed to signup Invalid username or password 
+5.6.2021, 20:09:29 - INFO - Server is running on port: 3030 
+5.6.2021, 20:10:32 - DEBUG - auth.service - signup with username: dinos, fullname: dhf 
+5.6.2021, 20:10:32 - DEBUG - auth.route - new account created: {"username":"dinos","password":"$2b$10$S4Nc1PP/1DYcqLVQclPIG.kw0EE672gm9UtW5UPqJIs149DKYNWcG","fullname":"dhf","_id":"60bbb008fa2a2e12e81c139b"} 
+5.6.2021, 20:10:32 - DEBUG - auth.service - login with username: dinos 
+5.6.2021, 20:10:32 - ERROR - Failed to signup Invalid username or password 
+5.6.2021, 20:12:09 - DEBUG - auth.service - login with username: dinos 
+5.6.2021, 20:12:09 - ERROR - Failed to Login Invalid username or password 
+5.6.2021, 20:13:30 - DEBUG - auth.service - signup with username: d, fullname: d 
+5.6.2021, 20:13:30 - DEBUG - auth.route - new account created: {"username":"d","password":"$2b$10$zKdVv4jUQl0mhMT8D3K/tOZCkbk4s2ktPWr/659YpjpZLH42Cc7zO","fullname":"d","_id":"60bbb0bafa2a2e12e81c139c"} 
+5.6.2021, 20:13:30 - DEBUG - auth.service - login with username: d 
+5.6.2021, 20:24:45 - DEBUG - auth.service - login with username: d 
+5.6.2021, 20:29:04 - DEBUG - auth.service - login with username: d 
+5.6.2021, 21:05:52 - DEBUG - auth.service - signup with username: d, fullname: d 
+5.6.2021, 21:05:52 - DEBUG - auth.route - new account created: {"username":"d","password":"$2b$10$Q3h48jhT1O5FEKDAwqhFPey1Rn1YlV92hEI/IzQL6CR0foAW4/C.C","fullname":"d","_id":"60bbbd00fa2a2e12e81c139d"} 
+5.6.2021, 21:05:52 - DEBUG - auth.service - login with username: d 
+5.6.2021, 21:12:51 - DEBUG - auth.service - login with username: d 
+5.6.2021, 21:33:21 - DEBUG - auth.service - login with username: d 
+5.6.2021, 22:03:03 - DEBUG - auth.service - signup with username: e, fullname: e 
+5.6.2021, 22:03:04 - DEBUG - auth.route - new account created: {"username":"e","password":"$2b$10$CeTV/8BC04aj1sX4PmG3z.D22qO7fTzxcqIQrnxkxHmhy0UERKqqu","fullname":"e","_id":"60bbca67fa2a2e12e81c139e"} 
+5.6.2021, 22:03:04 - DEBUG - auth.service - login with username: e 
+5.6.2021, 22:04:44 - INFO - Server is running on port: 3030 
+5.6.2021, 22:04:57 - DEBUG - auth.service - signup with username: r, fullname: r 
+5.6.2021, 22:04:57 - DEBUG - auth.route - new account created: {"username":"r","password":"$2b$10$erVnT4bf7T6K3SCzdNs.CemYlrocv7pzMgp.69oqfs3cnjmjeboD6","fullname":"r","_id":"60bbcad94e4b4a059c693f4b"} 
+5.6.2021, 22:04:57 - DEBUG - auth.service - login with username: r 
+5.6.2021, 22:05:41 - INFO - Server is running on port: 3030 
+5.6.2021, 22:05:58 - DEBUG - auth.service - signup with username: u, fullname: u 
+5.6.2021, 22:05:59 - DEBUG - auth.route - new account created: {"username":"u","password":"$2b$10$aB3ZxJ2sNdIinRE4MEBtN.Cr3VKlufzU5V8KDNUwEPUuXruYdNsNm","fullname":"u","_id":"60bbcb17062a61179c49840d"} 
+5.6.2021, 22:05:59 - DEBUG - auth.service - login with username: u 
+5.6.2021, 22:07:44 - DEBUG - auth.service - signup with username: g, fullname: g 
+5.6.2021, 22:07:45 - DEBUG - auth.route - new account created: {"username":"g","password":"$2b$10$FxWT3Gh7tlW1ytS2PW5dSeMwxhIDXWC1xiQ5XaNboKbj/VxNqpZ7O","fullname":"g","_id":"60bbcb80062a61179c49840e"} 
+5.6.2021, 22:07:45 - DEBUG - auth.service - login with username: g 
+5.6.2021, 22:23:26 - DEBUG - auth.service - signup with username: r, fullname: r 
+5.6.2021, 22:23:26 - DEBUG - auth.route - new account created: {"username":"r","password":"$2b$10$mBLdz0.b2hdfzShzsWnx3e7Ede1jbXB.02YF2aiDhUL0qEhFf8rdS","fullname":"r","_id":"60bbcf2e062a61179c49840f"} 
+5.6.2021, 22:23:26 - DEBUG - auth.service - login with username: r 
