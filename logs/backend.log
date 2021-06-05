@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 31.5.2021, 21:49:56 - INFO - Server is running on port: 3030 
 31.5.2021, 21:53:33 - INFO - Server is running on port: 3030 
 31.5.2021, 21:54:07 - INFO - Server is running on port: 3030 
@@ -283,3 +284,7 @@
 5.6.2021, 22:23:26 - DEBUG - auth.service - signup with username: r, fullname: r 
 5.6.2021, 22:23:26 - DEBUG - auth.route - new account created: {"username":"r","password":"$2b$10$mBLdz0.b2hdfzShzsWnx3e7Ede1jbXB.02YF2aiDhUL0qEhFf8rdS","fullname":"r","_id":"60bbcf2e062a61179c49840f"} 
 5.6.2021, 22:23:26 - DEBUG - auth.service - login with username: r 
+=======
+3.6.2021, 12:47:02 - INFO - Server is running on port: 3030 
+3.6.2021, 14:43:37 - INFO - Server is running on port: 3030 
+>>>>>>> 642c267f0cf9db5776bf802aa83ca16c84ccece1
