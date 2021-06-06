@@ -1,0 +1,52 @@
+5.6.2021, 22:44:35 - INFO - Server is running on port: 3030 
+5.6.2021, 22:44:42 - INFO - Server is running on port: 3030 
+5.6.2021, 22:53:05 - DEBUG - auth.service - login with username: omri 
+5.6.2021, 22:53:05 - ERROR - Failed to Login Invalid username or password 
+5.6.2021, 22:53:50 - DEBUG - auth.service - login with username: Omri 
+5.6.2021, 22:53:50 - ERROR - Failed to Login TypeError: Cannot read property 'password' of null 
+5.6.2021, 22:53:58 - DEBUG - auth.service - login with username: omri 
+5.6.2021, 22:53:58 - ERROR - Failed to Login Invalid username or password 
+5.6.2021, 22:54:23 - DEBUG - auth.service - login with username: omri 
+5.6.2021, 22:54:23 - ERROR - Failed to Login Invalid username or password 
+5.6.2021, 22:54:32 - DEBUG - auth.service - signup with username: q, fullname: q 
+5.6.2021, 22:54:32 - DEBUG - auth.route - new account created: {"username":"q","password":"$2b$10$TBv745ajKN2byM8aNEBA6.SMjkgblRZ.R4vAdst0cg0NB3gFZ/.Ci","fullname":"q","_id":"60bbd67806fb7b5aaca6677f"} 
+5.6.2021, 22:54:32 - DEBUG - auth.service - login with username: q 
+6.6.2021, 4:23:44 - DEBUG - auth.service - login with username: q 
+6.6.2021, 4:23:44 - ERROR - Failed to Login TypeError: Cannot read property 'password' of null 
+6.6.2021, 4:24:06 - DEBUG - auth.service - login with username: omri 
+6.6.2021, 4:24:06 - ERROR - Failed to Login Invalid username or password 
+6.6.2021, 4:24:47 - DEBUG - auth.service - login with username: omri 
+6.6.2021, 4:24:47 - ERROR - Failed to Login Invalid username or password 
+6.6.2021, 4:36:21 - INFO - Server is running on port: 3030 
+6.6.2021, 4:37:23 - DEBUG - auth.service - login with username: omri 
+6.6.2021, 4:37:23 - ERROR - Failed to Login Invalid username or password 
+6.6.2021, 4:37:33 - DEBUG - auth.service - login with username: omri 
+6.6.2021, 4:37:33 - ERROR - Failed to Login Invalid username or password 
+6.6.2021, 4:37:52 - DEBUG - auth.service - login with username: yyy 
+6.6.2021, 4:37:52 - ERROR - Failed to Login Invalid username or password 
+6.6.2021, 4:38:03 - DEBUG - auth.service - signup with username: q, fullname: q 
+6.6.2021, 4:38:03 - DEBUG - auth.route - new account created: {"username":"q","password":"$2b$10$PV8y4KRAcwb6dBBjVIGpU.zISawRIMaJC8MD/vjQ9j1bemQGoJIHe","fullname":"q","_id":"60bc26fb1ef0855924bb8d90"} 
+6.6.2021, 4:38:03 - DEBUG - auth.service - login with username: q 
+6.6.2021, 6:17:26 - INFO - Server is running on port: 3030 
+6.6.2021, 6:17:41 - INFO - Server is running on port: 3030 
+6.6.2021, 6:17:45 - INFO - Server is running on port: 3030 
+6.6.2021, 6:17:50 - INFO - Server is running on port: 3030 
+6.6.2021, 6:18:06 - INFO - Server is running on port: 3030 
+6.6.2021, 6:18:11 - INFO - Server is running on port: 3030 
+6.6.2021, 6:18:14 - INFO - Server is running on port: 3030 
+6.6.2021, 6:34:03 - INFO - Server is running on port: 3030 
+6.6.2021, 6:34:40 - INFO - Server is running on port: 3030 
+6.6.2021, 6:35:39 - INFO - Server is running on port: 3030 
+6.6.2021, 6:35:45 - INFO - Server is running on port: 3030 
+6.6.2021, 6:37:27 - INFO - Server is running on port: 3030 
+6.6.2021, 6:37:33 - INFO - Server is running on port: 3030 
+6.6.2021, 6:48:37 - INFO - Server is running on port: 3030 
+6.6.2021, 6:49:10 - INFO - Server is running on port: 3030 
+6.6.2021, 6:49:25 - INFO - Server is running on port: 3030 
+6.6.2021, 6:52:34 - DEBUG - auth.service - login with username: q 
+6.6.2021, 7:04:31 - INFO - Server is running on port: 3030 
+6.6.2021, 7:05:56 - INFO - Server is running on port: 3030 
+6.6.2021, 9:08:18 - INFO - Server is running on port: 3030 
+6.6.2021, 9:09:20 - INFO - Server is running on port: 3030 
+6.6.2021, 9:09:58 - INFO - Server is running on port: 3030 
+6.6.2021, 9:11:29 - DEBUG - auth.service - login with username: q 

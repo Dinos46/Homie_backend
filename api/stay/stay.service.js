@@ -12,12 +12,6 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-<<<<<<< HEAD
-    const criteria = _buildCriteria(filterBy)
-    try {
-        const collection = await dbService.getCollection('stay')
-        return await collection.find(criteria).toArray()
-=======
 
     console.log('filterBy critiria', filterBy)
 
@@ -31,7 +25,6 @@ async function query(filterBy = {}) {
         // var stays = await collection.find(criteria).toArray()
         // stays = stays.map(stay => stay)
         // return stays
->>>>>>> 642c267f0cf9db5776bf802aa83ca16c84ccece1
     } catch (err) {
         logger.error('cannot find stays', err)
         throw err
