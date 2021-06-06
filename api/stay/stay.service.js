@@ -12,12 +12,6 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-<<<<<<< HEAD
-=======
-
-    console.log('filterBy critiria', filterBy)
-
->>>>>>> 2f977f2bb67f2c0a9870aed96b70d22cdfb82df0
 
     const criteria = _buildCriteria(filterBy)
     try {
