@@ -29,9 +29,6 @@ async function getStays(req, res) {
 
             tv: req.query?.tv || '',
         }
-
-        console.log('filterBy', filterBy)
-
         const stays = await stayService.query(filterBy)
         res.send(stays)
     } catch (err) {

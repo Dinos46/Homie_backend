@@ -16,19 +16,7 @@ async function query(filterBy = {}) {
     console.log(criteria);
     try {
         const collection = await dbService.getCollection('stay')
-
         return await collection.find(criteria).toArray()
-
-        // var stays = await collection.find(criteria).toArray()
-        // stays = stays.map(stay => stay)
-
-        // let stays = await collection.find(criteria).toArray()
-        // console.log('BACK', stays)
-
-        // stays = stays.map(stay => stay)
-
-        return stays
-
     } catch (err) {
         logger.error('cannot find stays', err)
         throw err
@@ -45,7 +33,6 @@ async function getById(stayId) {
         throw err
     }
 }
-
 
 async function remove(stayId) {
     try {
@@ -89,6 +76,8 @@ async function add(stay) {
 
 function _buildCriteria(filterBy) {
 
+    const { city } = filterBy;
+
     let criteria = {}
     const {
         city,
@@ -110,7 +99,5 @@ function _buildCriteria(filterBy) {
         const maximumPrice = +maxPrice
         criteria = { ...criteria, "price": { $gte: minimumPrice, $lte: maximumPrice } }
     }
-
-
     return criteria
 }
