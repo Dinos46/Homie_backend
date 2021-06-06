@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5.6.2021, 23:35:24 - INFO - Server is running on port: 3030 
 5.6.2021, 23:51:01 - DEBUG - auth.service - signup with username: d, fullname: d 
 5.6.2021, 23:51:01 - DEBUG - auth.route - new account created: {"username":"d","password":"$2b$10$WWLPCkO9XM15FsVtS/YUleUr/kZcToave/SE7zGZ0NTW2fr5Je8yi","fullname":"d","_id":"60bbe3b547399110b46af4f3"} 
@@ -122,3 +123,15 @@
 6.6.2021, 22:02:47 - DEBUG - auth.service - signup with username: t, fullname: t 
 6.6.2021, 22:02:47 - DEBUG - auth.route - new account created: {"username":"t","password":"$2b$10$D3R11jYv8CHWAkEvu5p72e/9a0vIJhGMgzckXNSrt1C.6MVzyy1BG","fullname":"t","imgUrl":"","isHost":false,"_id":"60bd1bd7742e6e064418f10e"} 
 6.6.2021, 22:02:47 - DEBUG - auth.service - login with username: t 
+=======
+6.6.2021, 13:21:45 - INFO - Server is running on port: 3030 
+6.6.2021, 13:21:50 - INFO - Server is running on port: 3030 
+6.6.2021, 13:25:30 - DEBUG - auth.service - login with username: q 
+6.6.2021, 14:19:29 - DEBUG - auth.service - login with username: q 
+6.6.2021, 20:02:09 - DEBUG - auth.service - login with username: omri 
+6.6.2021, 20:02:09 - ERROR - Failed to Login Invalid username or password 
+6.6.2021, 20:02:19 - DEBUG - auth.service - login with username: omri 
+6.6.2021, 20:02:19 - ERROR - Failed to Login Invalid username or password 
+6.6.2021, 20:02:31 - DEBUG - auth.service - login with username: d 
+6.6.2021, 20:23:33 - INFO - Server is running on port: 3030 
+>>>>>>> 190ffbdab93923a808cc709ded998de6c514cda7
