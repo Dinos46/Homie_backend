@@ -104,3 +104,6 @@
 6.6.2021, 9:09:58 - INFO - Server is running on port: 3030 
 6.6.2021, 9:11:29 - DEBUG - auth.service - login with username: q 
 >>>>>>> 2f977f2bb67f2c0a9870aed96b70d22cdfb82df0
+6.6.2021, 14:16:21 - INFO - Server is running on port: 3030 
+6.6.2021, 14:23:31 - INFO - Server is running on port: 3030 
+6.6.2021, 14:24:33 - DEBUG - auth.service - login with username: d 
