@@ -30,18 +30,20 @@ if (process.env.NODE_ENV === 'production') {
 const stayRoutes = require('./api/stay/stay.routes')
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
-const {connectSockets} = require('./services/socket.service')
+const orderRoutes = require('./api/order/order.routes')
+const { connectSockets } = require('./services/socket.service')
 
 app.use('/api/stay', stayRoutes)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
+app.use('/api/order', orderRoutes)
 connectSockets(http, session)
 
 app.get('/**', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
-const logger = require('./services/logger.service') 
+const logger = require('./services/logger.service')
 const port = process.env.PORT || 3030
 http.listen(port, () => {
     logger.info('Server is running on port: ' + port)
