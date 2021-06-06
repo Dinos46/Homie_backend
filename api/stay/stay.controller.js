@@ -13,19 +13,29 @@ async function getStay(req, res) {
 }
 
 async function getStays(req, res) {
+
     try {
         const filterBy = {
             city: req.query?.city || '',
-            guest: +req.query?.guest || 0,
-            // types: req.query?.types || '',
-            // amenities: req.query?.amenities || '',
-            // rules: req.query?.rules || '',
-            tv: req.query?.tv || ''
+            guest: +req.query?.guest || 1,
+            type: req.query?.type || '',
+
+            isPets: req.query?.isPets || '',
+            isSmoking: req.query?.isSmoking || '',
+
+            minPrice: +req.query?.minPrice || 0,
+            maxPrice: +req.query?.maxPrice || 1500,
+
+
+            tv: req.query?.tv || '',
         }
+
         console.log('filterBy', filterBy)
+
         const stays = await stayService.query(filterBy)
         res.send(stays)
     } catch (err) {
+
         logger.error('Failed to get stays', err)
         res.status(500).send({ err: 'Failed to get stays' })
     }
