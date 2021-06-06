@@ -76,8 +76,6 @@ async function add(stay) {
 
 function _buildCriteria(filterBy) {
 
-    const { city } = filterBy;
-
     let criteria = {}
     const {
         city,
