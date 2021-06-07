@@ -12,6 +12,7 @@ module.exports = {
 }
 
 async function query(user) {
+    console.log('user', user)
     try {
         const criteria = _buildCriteria(user)
         const collection = await dbService.getCollection('order')
@@ -78,8 +79,10 @@ async function add(order) {
 }
 
 function _buildCriteria({ id, type }) {
+    console.log('id', id, 'type', type)
     let criteria = {}
-    if (type === 'user') criteria = { 'user._id': id }
+    if (type === 'user') criteria = { 'buyer._id': id }
     else criteria = { 'host._id': id }
+    console.log('criteria', criteria)
     return criteria
 }

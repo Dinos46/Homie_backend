@@ -1,0 +1,29 @@
+7.6.2021, 9:12:38 - INFO - Server is running on port: 3030 
+7.6.2021, 9:16:19 - DEBUG - auth.service - login with username: q 
+7.6.2021, 9:16:19 - ERROR - Failed to Login TypeError: Cannot read property 'password' of null 
+7.6.2021, 9:17:18 - DEBUG - auth.service - login with username: omri 
+7.6.2021, 9:17:18 - ERROR - Failed to Login Invalid username or password 
+7.6.2021, 9:17:27 - DEBUG - auth.service - login with username: omri madar 
+7.6.2021, 9:17:27 - ERROR - Failed to Login TypeError: Cannot read property 'password' of null 
+7.6.2021, 9:18:08 - DEBUG - auth.service - signup with username: q, fullname: q 
+7.6.2021, 9:18:08 - DEBUG - auth.route - new account created: {"username":"q","password":"$2b$10$ySto/7LsgWOAq5h5brEUw.Oim6icVUhuarXE54wDToDnnxsSDnDFu","fullname":"q","imgUrl":"","isHost":false,"_id":"60bdba20e44154304cc4b6b7"} 
+7.6.2021, 9:18:08 - DEBUG - auth.service - login with username: q 
+7.6.2021, 10:16:38 - INFO - Server is running on port: 3030 
+7.6.2021, 10:16:46 - INFO - Server is running on port: 3030 
+7.6.2021, 10:22:58 - INFO - Server is running on port: 3030 
+7.6.2021, 10:24:03 - INFO - Server is running on port: 3030 
+7.6.2021, 10:25:29 - INFO - Server is running on port: 3030 
+7.6.2021, 10:26:04 - INFO - Server is running on port: 3030 
+7.6.2021, 10:27:24 - INFO - Server is running on port: 3030 
+7.6.2021, 10:43:01 - INFO - Server is running on port: 3030 
+7.6.2021, 10:43:51 - INFO - Server is running on port: 3030 
+7.6.2021, 10:44:06 - INFO - Server is running on port: 3030 
+7.6.2021, 14:09:27 - DEBUG - auth.service - login with username: q 
+7.6.2021, 14:26:31 - DEBUG - auth.service - signup with username: 1, fullname: 1 
+7.6.2021, 14:26:31 - DEBUG - auth.route - new account created: {"username":"1","password":"$2b$10$NhodOMsft0yTOqfV/pYGf.fyKr9ujfzbXKuvNKtkYksjIGxKvZ6eu","fullname":"1","imgUrl":"","isHost":false,"_id":"60be026781a3ad55e04f6a5a"} 
+7.6.2021, 14:26:31 - DEBUG - auth.service - login with username: 1 
+7.6.2021, 14:27:00 - DEBUG - auth.service - signup with username: 2, fullname: 2 
+7.6.2021, 14:27:00 - DEBUG - auth.route - new account created: {"username":"2","password":"$2b$10$0oOSt2o0d3oWF148vvL61.8F6ZbqDyHCREceC5WTV1.oI9WncG33S","fullname":"2","imgUrl":"http://res.cloudinary.com/duhcvi6p4/image/upload/v1623065213/lkitosavuxoqokles8ti.jpg","isHost":false,"_id":"60be028481a3ad55e04f6a5b"} 
+7.6.2021, 14:27:00 - DEBUG - auth.service - login with username: 2 
+7.6.2021, 14:29:49 - DEBUG - auth.service - login with username: q 
+7.6.2021, 14:39:45 - DEBUG - auth.service - login with username: q 
