@@ -135,3 +135,9 @@
 6.6.2021, 20:02:31 - DEBUG - auth.service - login with username: d 
 6.6.2021, 20:23:33 - INFO - Server is running on port: 3030 
 >>>>>>> 190ffbdab93923a808cc709ded998de6c514cda7
+6.6.2021, 23:15:05 - INFO - Server is running on port: 3030 
+7.6.2021, 15:59:11 - INFO - Server is running on port: 3030 
+7.6.2021, 16:00:46 - DEBUG - auth.service - signup with username: d, fullname: d 
+7.6.2021, 16:00:47 - DEBUG - auth.route - new account created: {"username":"d","password":"$2b$10$RWn73Gbl/xXCSQZYOgllyugBJtgvU9849U8sHkXVfm/Sa8GwGyLRC","fullname":"d","imgUrl":"http://res.cloudinary.com/duhcvi6p4/image/upload/v1623067241/pc0fsnchmz5r1jqlljvt.jpg","isHost":false,"_id":"60be187fe134bb2e2898c364"} 
+7.6.2021, 16:00:47 - DEBUG - auth.service - login with username: d 
+7.6.2021, 16:02:48 - INFO - Server is running on port: 3030 
