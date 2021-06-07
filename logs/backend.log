@@ -48,3 +48,7 @@
 7.6.2021, 18:46:12 - INFO - Server is running on port: 3030 
 7.6.2021, 18:52:56 - INFO - Server is running on port: 3030 
 7.6.2021, 18:54:23 - DEBUG - auth.service - login with username: q 
+7.6.2021, 23:17:56 - INFO - Server is running on port: 3030 
+7.6.2021, 23:27:55 - DEBUG - auth.service - login with username: q 
+8.6.2021, 0:10:00 - INFO - Server is running on port: 3030 
+8.6.2021, 0:11:35 - DEBUG - auth.service - login with username: q 
