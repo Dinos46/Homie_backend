@@ -12,7 +12,7 @@ module.exports = {
 }
 
 async function query(user) {
-    console.log('user', user)
+    // console.log('user', user)
     try {
         const criteria = _buildCriteria(user)
         const collection = await dbService.getCollection('order')
@@ -52,12 +52,16 @@ async function update(order) {
     try {
         // peek only updatable fields!
         const orderToSave = {
+            ...order,
             _id: ObjectId(order._id),
-            name: order.name,
-            price: +order.price,
+            status: order.status
+            // name: order.name,
+            // price: +order.price,
         }
+        // console.log('orderToSave', orderToSave)
         const collection = await dbService.getCollection('order')
         await collection.updateOne({ '_id': orderToSave._id }, { $set: orderToSave })
+        console.log('orderToSave', orderToSave)
         return orderToSave;
     } catch (err) {
         logger.error(`cannot update order ${order._id}`, err)
@@ -79,10 +83,10 @@ async function add(order) {
 }
 
 function _buildCriteria({ id, type }) {
-    console.log('id', id, 'type', type)
+    // console.log('id', id, 'type', type)
     let criteria = {}
     if (type === 'user') criteria = { 'buyer._id': id }
     else criteria = { 'host._id': id }
-    console.log('criteria', criteria)
+    // console.log('criteria', criteria)
     return criteria
 }
