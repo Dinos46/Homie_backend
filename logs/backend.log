@@ -201,3 +201,19 @@
 7.6.2021, 18:52:56 - INFO - Server is running on port: 3030 
 7.6.2021, 18:54:23 - DEBUG - auth.service - login with username: q 
 >>>>>>> 0d49c65637eb20b00d5d30599f8947eef17c49fe
+8.6.2021, 0:51:45 - INFO - Server is running on port: 3030 
+8.6.2021, 12:29:12 - INFO - Server is running on port: 3030 
+8.6.2021, 12:39:58 - DEBUG - auth.service - signup with username: , fullname: Din 
+8.6.2021, 12:39:58 - ERROR - Failed to signup fullname, username and password are required! 
+8.6.2021, 12:41:34 - DEBUG - auth.service - signup with username: Din, fullname: Din 
+8.6.2021, 12:41:35 - DEBUG - auth.route - new account created: {"username":"Din","password":"$2b$10$81bMw8ZT7iagYFVWIzW4We.k9iQcb6DTpe5IsTNvjE8sDALouymMW","fullname":"Din","imgUrl":"https://ozgrozer.github.io/100k-faces/0/0/000924.jpg","isHost":false,"_id":"60bf3b4f3b1cc611700d517b"} 
+8.6.2021, 12:41:35 - DEBUG - auth.service - login with username: Din 
+8.6.2021, 12:45:03 - INFO - Server is running on port: 3030 
+8.6.2021, 12:51:26 - DEBUG - Din, Din, Din, https://ozgrozer.github.io/100k-faces/0/0/000924.jpg 
+8.6.2021, 12:51:26 - DEBUG - auth.service - signup with username: Din, fullname: Din 
+8.6.2021, 12:51:27 - DEBUG - auth.route - new account created: {"username":"Din","password":"$2b$10$tRGa/AGaBQhGkC1axGOoOeqBiMwBwbHZENEd0TutvGqr8QvtwS3De","fullname":"Din","imgUrl":"https://ozgrozer.github.io/100k-faces/0/0/000924.jpg","isHost":false,"_id":"60bf3d9f8ad20136d8c036c0"} 
+8.6.2021, 12:51:27 - DEBUG - auth.service - login with username: Din 
+8.6.2021, 13:02:04 - DEBUG - e, e, e, https://ozgrozer.github.io/100k-faces/0/0/000924.jpg 
+8.6.2021, 13:02:04 - DEBUG - auth.service - signup with username: e, fullname: e 
+8.6.2021, 13:02:05 - DEBUG - auth.route - new account created: {"username":"e","password":"$2b$10$9sEr0ZRkN2xCQq0lybXbUOhGhFe2dsOnKoGvAG5EYOwB8E/uNhEP6","fullname":"e","imgUrl":"https://ozgrozer.github.io/100k-faces/0/0/000924.jpg","isHost":false,"_id":"60bf401d8ad20136d8c036c1"} 
+8.6.2021, 13:02:05 - DEBUG - auth.service - login with username: e 
