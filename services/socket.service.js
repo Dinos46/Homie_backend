@@ -1,15 +1,15 @@
-
-
-const asyncLocalStorage = require('./als.service');
-const logger = require('./logger.service');
+const asyncLocalStorage = require('./als.service')
+const logger = require('./logger.service')
 
 var gIo = null
 var gSocketBySessionIdMap = {}
+var gSocketByUserIdMap = {}
+
 
 function connectSockets(http, session) {
-    gIo = require('socket.io')(http);
+    gIo = require('socket.io')(http)
 
-    const sharedSession = require('express-socket.io-session');
+    const sharedSession = require('express-socket.io-session')
 
     gIo.use(sharedSession(session, {
         autoSave: true
@@ -24,26 +24,19 @@ function connectSockets(http, session) {
                 gSocketBySessionIdMap[socket.handshake.sessionID] = null
             }
         })
-        socket.on('chat topic', topic => {
-            if (socket.myTopic === topic) return;
-            if (socket.myTopic) {
-                socket.leave(socket.myTopic)
-            }
-            socket.join(topic)
-            // logger.debug('Session ID is', socket.handshake.sessionID)
-            socket.myTopic = topic
+        socket.on('LOGIN', (user) => {
+            // console.log('LOGGED IN USER', user)
+            gSocketByUserIdMap[user._id] = socket
         })
-        socket.on('chat newMsg', msg => {
-            console.log('Msg', msg);
-            // emits to all sockets:
-            // gIo.emit('chat addMsg', msg)
-            // emits only to sockets in the same room
-            gIo.to(socket.myTopic).emit('chat addMsg', msg)
-        })
-        socket.on('user-watch', userId => {
-            socket.join(userId)
-        })
+        // This is what we send after reserving a stay:
+        socket.on('ORDER_OUT', ({hostId, stay}) => {
+            console.log('HOST ID!!!!', hostId)
 
+            const hostSocket = gSocketByUserIdMap[hostId]
+            // This is what the host will get:
+            if (hostSocket) hostSocket.emit('ORDER_IN', stay.name)
+
+        })
     })
 }
 
@@ -75,6 +68,3 @@ module.exports = {
     emitToAll,
     broadcast,
 }
-
-
-

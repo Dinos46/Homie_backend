@@ -33,7 +33,6 @@ async function deleteOrder(req, res) {
 }
 
 async function addOrder(req, res) {
-    console.log('reqqqqqqqqqqqqqqqqqqq', req, 'ressssssssssssssss', res);
     try {
         const order = req.body
         const orderToAdd = await orderService.add(order)

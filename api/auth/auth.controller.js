@@ -2,7 +2,7 @@ const authService = require('./auth.service')
 const logger = require('../../services/logger.service')
 
 async function login(req, res) {
-    console.log('BACK',req.body) 
+    
     const { username, password } = req.body
     try {
         const user = await authService.login(username, password)
@@ -18,7 +18,7 @@ async function signup(req, res) {
     try {
         const { username, password, fullname, imgUrl} = req.body
         // Never log passwords
-        // logger.debug(fullname + ', ' + username + ', ' + password)
+        logger.debug(`${username}, ${password}, ${fullname}, ${imgUrl}`)
         const account = await authService.signup(username, password, fullname, imgUrl)
         logger.debug(`auth.route - new account created: ` + JSON.stringify(account))
         const user = await authService.login(username, password)
