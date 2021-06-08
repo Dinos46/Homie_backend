@@ -19,3 +19,5 @@
 8.6.2021, 13:21:31 - INFO - Server is running on port: 3030 
 8.6.2021, 13:22:42 - DEBUG - auth.service - login with username: Alex 
 8.6.2021, 15:17:24 - DEBUG - auth.service - login with username: Alex 
+8.6.2021, 16:41:05 - INFO - Server is running on port: 3030 
+8.6.2021, 16:46:28 - DEBUG - auth.service - login with username: Alex 
