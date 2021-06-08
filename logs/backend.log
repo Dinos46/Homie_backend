@@ -217,3 +217,54 @@
 8.6.2021, 13:02:04 - DEBUG - auth.service - signup with username: e, fullname: e 
 8.6.2021, 13:02:05 - DEBUG - auth.route - new account created: {"username":"e","password":"$2b$10$9sEr0ZRkN2xCQq0lybXbUOhGhFe2dsOnKoGvAG5EYOwB8E/uNhEP6","fullname":"e","imgUrl":"https://ozgrozer.github.io/100k-faces/0/0/000924.jpg","isHost":false,"_id":"60bf401d8ad20136d8c036c1"} 
 8.6.2021, 13:02:05 - DEBUG - auth.service - login with username: e 
+8.6.2021, 13:11:49 - INFO - Server is running on port: 3030 
+8.6.2021, 13:13:03 - DEBUG - auth.service - login with username: Din 
+8.6.2021, 13:19:55 - INFO - Server is running on port: 3030 
+8.6.2021, 13:20:28 - INFO - Server is running on port: 3030 
+8.6.2021, 13:21:05 - INFO - Server is running on port: 3030 
+8.6.2021, 13:21:27 - INFO - Server is running on port: 3030 
+8.6.2021, 13:21:44 - INFO - Server is running on port: 3030 
+8.6.2021, 13:22:15 - INFO - Server is running on port: 3030 
+8.6.2021, 13:23:17 - INFO - Server is running on port: 3030 
+8.6.2021, 14:51:55 - INFO - Server is running on port: 3030 
+8.6.2021, 15:06:13 - INFO - Server is running on port: 3030 
+8.6.2021, 15:15:18 - INFO - Server is running on port: 3030 
+8.6.2021, 15:33:43 - DEBUG - auth.service - login with username: Din 
+8.6.2021, 15:36:06 - DEBUG - auth.service - login with username: Din 
+8.6.2021, 15:36:48 - DEBUG - rami, rami, rami, https://ozgrozer.github.io/100k-faces/0/0/000924.jpg 
+8.6.2021, 15:36:48 - DEBUG - auth.service - signup with username: rami, fullname: rami 
+8.6.2021, 15:36:48 - DEBUG - auth.route - new account created: {"username":"rami","password":"$2b$10$Q/w5z5dOm8AdgzPKGWYsruxRtvKwH6zHOq1nZKeWVGqKh44V8AzlW","fullname":"rami","imgUrl":"https://ozgrozer.github.io/100k-faces/0/0/000924.jpg","isHost":false,"_id":"60bf6460ef1d4335c0a7afe4"} 
+8.6.2021, 15:36:48 - DEBUG - auth.service - login with username: rami 
+8.6.2021, 15:39:47 - INFO - Server is running on port: 3030 
+8.6.2021, 15:40:14 - DEBUG - auth.service - login with username: rami 
+8.6.2021, 15:41:09 - INFO - Server is running on port: 3030 
+8.6.2021, 15:43:01 - INFO - Server is running on port: 3030 
+8.6.2021, 15:45:36 - DEBUG - auth.service - login with username: rami 
+8.6.2021, 15:47:51 - DEBUG - auth.service - login with username: rami 
+8.6.2021, 15:49:09 - INFO - Server is running on port: 3030 
+8.6.2021, 15:49:59 - INFO - Server is running on port: 3030 
+8.6.2021, 15:50:07 - INFO - Server is running on port: 3030 
+8.6.2021, 16:00:13 - INFO - Server is running on port: 3030 
+8.6.2021, 16:00:19 - INFO - Server is running on port: 3030 
+8.6.2021, 16:00:24 - INFO - Server is running on port: 3030 
+8.6.2021, 16:01:15 - DEBUG - auth.service - login with username: rami 
+8.6.2021, 16:05:02 - INFO - Server is running on port: 3030 
+8.6.2021, 16:05:23 - INFO - Server is running on port: 3030 
+8.6.2021, 16:06:30 - DEBUG - auth.service - login with username: rami 
+8.6.2021, 16:08:46 - INFO - Server is running on port: 3030 
+8.6.2021, 16:11:57 - INFO - Server is running on port: 3030 
+8.6.2021, 16:15:02 - DEBUG - auth.service - login with username: Alex 
+8.6.2021, 16:17:52 - INFO - Server is running on port: 3030 
+8.6.2021, 16:18:09 - DEBUG - auth.service - login with username: Alex 
+8.6.2021, 16:18:35 - DEBUG - auth.service - login with username: rami 
+8.6.2021, 16:26:23 - INFO - Server is running on port: 3030 
+8.6.2021, 16:27:04 - INFO - Server is running on port: 3030 
+8.6.2021, 16:27:29 - INFO - Server is running on port: 3030 
+8.6.2021, 16:40:15 - INFO - Server is running on port: 3030 
+8.6.2021, 17:02:08 - INFO - Server is running on port: 3030 
+8.6.2021, 17:30:47 - INFO - Server is running on port: 3030 
+8.6.2021, 17:34:50 - DEBUG - auth.service - login with username: Din  
+8.6.2021, 17:34:50 - ERROR - Failed to Login TypeError: Cannot read property 'password' of null 
+8.6.2021, 17:35:09 - DEBUG - auth.service - login with username: rami 
+8.6.2021, 17:39:46 - DEBUG - auth.service - login with username: rami 
+8.6.2021, 17:50:33 - DEBUG - auth.service - login with username: Din 

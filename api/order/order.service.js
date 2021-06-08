@@ -12,7 +12,6 @@ module.exports = {
 }
 
 async function query(user) {
-    // console.log('user', user)
     try {
         const criteria = _buildCriteria(user)
         const collection = await dbService.getCollection('order')
@@ -55,13 +54,9 @@ async function update(order) {
             ...order,
             _id: ObjectId(order._id),
             status: order.status
-            // name: order.name,
-            // price: +order.price,
         }
-        // console.log('orderToSave', orderToSave)
         const collection = await dbService.getCollection('order')
         await collection.updateOne({ '_id': orderToSave._id }, { $set: orderToSave })
-        console.log('orderToSave', orderToSave)
         return orderToSave;
     } catch (err) {
         logger.error(`cannot update order ${order._id}`, err)

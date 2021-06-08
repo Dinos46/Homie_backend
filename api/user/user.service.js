@@ -90,7 +90,6 @@ async function update(user) {
 }
 
 async function add(user) {
-    console.log('USER', user)
     try {
         // peek only updatable fields!
         const userToAdd = {
