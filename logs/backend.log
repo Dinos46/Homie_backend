@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 8.6.2021, 18:45:12 - INFO - Server is running on port: 3030 
 8.6.2021, 18:49:37 - DEBUG - auth.service - login with username: Din 
 8.6.2021, 18:51:26 - DEBUG - auth.service - login with username: Alex 
@@ -44,3 +45,8 @@
 8.6.2021, 21:49:24 - INFO - Server is running on port: 3030 
 8.6.2021, 21:50:19 - DEBUG - auth.service - login with username: Din 
 8.6.2021, 21:50:38 - DEBUG - auth.service - login with username: Alex 
+=======
+8.6.2021, 17:36:53 - INFO - Server is running on port: 3030 
+8.6.2021, 17:40:17 - DEBUG - auth.service - login with username: Alex 
+8.6.2021, 18:01:11 - DEBUG - auth.service - login with username: Alex 
+>>>>>>> 8f377bd060fbc0576453ddda815720a60cc493c1
