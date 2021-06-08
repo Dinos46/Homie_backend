@@ -25,17 +25,22 @@ function connectSockets(http, session) {
             }
         })
         socket.on('LOGIN', (user) => {
-            // console.log('LOGGED IN USER', user)
+    
             gSocketByUserIdMap[user._id] = socket
         })
         // This is what we send after reserving a stay:
-        socket.on('ORDER_OUT', ({hostId, stay}) => {
-            console.log('HOST ID!!!!', hostId)
-
+        socket.on('ORDER_OUT', ({ hostId, stay }) => {
             const hostSocket = gSocketByUserIdMap[hostId]
-            // This is what the host will get:
-            if (hostSocket) hostSocket.emit('ORDER_IN', stay.name)
 
+            // This is what the host will get:
+            if (hostSocket) hostSocket.emit('ORDER_IN', stay.host.fullname)
+
+        })
+
+        socket.on('ORDER_STATUS', (order)=>{
+            // console.log('ORDER', order)
+            const buyerSocket = gSocketByUserIdMap[order.buyer._id]
+            if(buyerSocket) buyerSocket.emit('STATUS_FROM_HOST', order.status)
         })
     })
 }
