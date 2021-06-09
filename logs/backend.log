@@ -50,3 +50,26 @@
 8.6.2021, 17:40:17 - DEBUG - auth.service - login with username: Alex 
 8.6.2021, 18:01:11 - DEBUG - auth.service - login with username: Alex 
 >>>>>>> 8f377bd060fbc0576453ddda815720a60cc493c1
+9.6.2021, 2:54:09 - INFO - Server is running on port: 3030 
+9.6.2021, 3:02:20 - DEBUG - auth.service - login with username: Alex 
+9.6.2021, 11:33:48 - INFO - Server is running on port: 3030 
+9.6.2021, 11:34:53 - DEBUG - d, d, d, https://ozgrozer.github.io/100k-faces/0/0/000924.jpg 
+9.6.2021, 11:34:53 - DEBUG - auth.service - signup with username: d, fullname: d 
+9.6.2021, 11:34:54 - DEBUG - auth.route - new account created: {"username":"d","password":"$2b$10$QBRuKjATN86YI0HGEcArcucUCmRBzOZbEIJ1X3WnkClsKXLmrjSb2","fullname":"d","imgUrl":"https://ozgrozer.github.io/100k-faces/0/0/000924.jpg","isHost":false,"_id":"60c07d2ecb512a2cfc6e270d"} 
+9.6.2021, 11:34:54 - DEBUG - auth.service - login with username: d 
+9.6.2021, 11:40:59 - DEBUG - f, f, f, http://res.cloudinary.com/duhcvi6p4/image/upload/v1623224454/e2n7asz4voie2fdiz17m.jpg 
+9.6.2021, 11:40:59 - DEBUG - auth.service - signup with username: f, fullname: f 
+9.6.2021, 11:40:59 - DEBUG - auth.route - new account created: {"username":"f","password":"$2b$10$tufbEpAjoxl4NnkQFziEguq9uuPntGmC8ffNRvyh4i3d41rXXYrbe","fullname":"f","imgUrl":"http://res.cloudinary.com/duhcvi6p4/image/upload/v1623224454/e2n7asz4voie2fdiz17m.jpg","isHost":false,"_id":"60c07e9bcb512a2cfc6e270e"} 
+9.6.2021, 11:40:59 - DEBUG - auth.service - login with username: f 
+9.6.2021, 11:44:00 - DEBUG - g, g, g, http://res.cloudinary.com/duhcvi6p4/image/upload/v1623224638/dpcjtspdxx0kfmtxqch0.jpg 
+9.6.2021, 11:44:00 - DEBUG - auth.service - signup with username: g, fullname: g 
+9.6.2021, 11:44:00 - DEBUG - auth.route - new account created: {"username":"g","password":"$2b$10$E5ocEgldtlQvHoy9erumJu01qFbbvxNVpykDVByI03KXgcNcHRDla","fullname":"g","imgUrl":"http://res.cloudinary.com/duhcvi6p4/image/upload/v1623224638/dpcjtspdxx0kfmtxqch0.jpg","isHost":false,"_id":"60c07f50cb512a2cfc6e270f"} 
+9.6.2021, 11:44:00 - DEBUG - auth.service - login with username: g 
+9.6.2021, 11:44:01 - DEBUG - g, g, g, http://res.cloudinary.com/duhcvi6p4/image/upload/v1623224638/dpcjtspdxx0kfmtxqch0.jpg 
+9.6.2021, 11:44:01 - DEBUG - auth.service - signup with username: g, fullname: g 
+9.6.2021, 11:44:01 - DEBUG - auth.route - new account created: {"username":"g","password":"$2b$10$LhHpD7PmLyb2n4FtAPmMFuTphoSQPodh5ZX32dXLcxnXQUutxpRkW","fullname":"g","imgUrl":"http://res.cloudinary.com/duhcvi6p4/image/upload/v1623224638/dpcjtspdxx0kfmtxqch0.jpg","isHost":false,"_id":"60c07f51cb512a2cfc6e2710"} 
+9.6.2021, 11:44:01 - DEBUG - auth.service - login with username: g 
+9.6.2021, 11:44:27 - DEBUG - h, h, h, http://res.cloudinary.com/duhcvi6p4/image/upload/v1623224665/q7bsohuqbjg8uhzhiacm.jpg 
+9.6.2021, 11:44:27 - DEBUG - auth.service - signup with username: h, fullname: h 
+9.6.2021, 11:44:28 - DEBUG - auth.route - new account created: {"username":"h","password":"$2b$10$0VXAHwweEd1ipIv4xdWJXuFEhus02fUypa65GNrheXR2oRh14ZBHu","fullname":"h","imgUrl":"http://res.cloudinary.com/duhcvi6p4/image/upload/v1623224665/q7bsohuqbjg8uhzhiacm.jpg","isHost":false,"_id":"60c07f6bcb512a2cfc6e2711"} 
+9.6.2021, 11:44:28 - DEBUG - auth.service - login with username: h 

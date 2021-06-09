@@ -33,12 +33,14 @@ function connectSockets(http, session) {
             const hostSocket = gSocketByUserIdMap[hostId]
 
             // This is what the host will get:
-            if (hostSocket) hostSocket.emit('ORDER_IN', stay.host.fullname)
+            if (hostSocket) {
+                hostSocket.emit('ORDER_IN', stay.host.fullname)
+                hostSocket.emit('USER_MSG', 5)
+            }
 
         })
 
         socket.on('ORDER_STATUS', (order)=>{
-            // console.log('ORDER', order)
             const buyerSocket = gSocketByUserIdMap[order.buyer._id]
             if(buyerSocket) buyerSocket.emit('STATUS_FROM_HOST', order.status)
         })
