@@ -1,4 +1,3 @@
-
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
 const ObjectId = require('mongodb').ObjectId
@@ -78,10 +77,8 @@ async function add(order) {
 }
 
 function _buildCriteria({ id, type }) {
-    // console.log('id', id, 'type', type)
     let criteria = {}
     if (type === 'user') criteria = { 'buyer._id': id }
     else criteria = { 'host._id': id }
-    // console.log('criteria', criteria)
     return criteria
 }
