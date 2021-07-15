@@ -35,7 +35,6 @@ function connectSockets(http, session) {
             // This is what the host will get:
             if (hostSocket) {
                 hostSocket.emit('ORDER_IN', stay.host.fullname)
-                hostSocket.emit('USER_MSG', 5)
             }
 
         })
