@@ -25,9 +25,17 @@ async function getStays(req, res) {
 
             minPrice: +req.query?.minPrice || 0,
             maxPrice: +req.query?.maxPrice || 1500,
-
-
+            
             tv: req.query?.tv || '',
+            wifi: req.query?.wifi || '',
+            kitchen: req.query?.kitchen || '',
+            accessibility: req.query?.accessibility || '',
+            airConditioner: req.query?.airConditioner || '',
+            secured: req.query?.secured || '',
+            fastFood: req.query?.fastFood || '',
+            parking: req.query?.parking || '',
+            aidKit: req.query?.aidKit || '',
+            publicTransport: req.query?.publicTransport || '',
         }
         const stays = await stayService.query(filterBy)
         res.send(stays)

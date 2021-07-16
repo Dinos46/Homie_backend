@@ -11,8 +11,10 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
+
     const criteria = _buildCriteria(filterBy)
-    
+    console.log('after criteria', criteria);
+
     try {
         const collection = await dbService.getCollection('stay')
         return await collection.find(criteria).toArray()
@@ -74,18 +76,29 @@ async function add(stay) {
 }
 
 function _buildCriteria(filterBy) {
-
     let criteria = {}
     const {
         city,
+
         type,
         minPrice,
-        maxPrice
+        maxPrice,
+
+        tv,
+        wifi,
+        kitchen,
+        accessibility,
+        airConditioner,
+        secured,
+        fastFood,
+        parking,
+        aidKit,
+        publicTransport,
     } = filterBy;
 
     if (city) {
         const txtCriteria = { $regex: city, $options: 'i' }
-        criteria = { "loc.city": txtCriteria }
+        criteria = { ...criteria, "loc.city": txtCriteria }
     }
     if (type) {
         const typeCriteria = { $regex: type, $options: 'i' }
@@ -96,5 +109,15 @@ function _buildCriteria(filterBy) {
         const maximumPrice = +maxPrice
         criteria = { ...criteria, "price": { $gte: minimumPrice, $lte: maximumPrice } }
     }
+    if (tv) criteria = { ...criteria, "amenities.tv": true }
+    if (wifi) criteria = { ...criteria, "amenities.wifi": true }
+    if (kitchen) criteria = { ...criteria, "amenities.kitchen": true }
+    if (accessibility) criteria = { ...criteria, "amenities.accessibility": true }
+    if (airConditioner) criteria = { ...criteria, "amenities.airConditioner": true }
+    if (secured) criteria = { ...criteria, "amenities.secured": true }
+    if (fastFood) criteria = { ...criteria, "amenities.fastFood": true }
+    if (parking) criteria = { ...criteria, "amenities.parking": true }
+    if (aidKit) criteria = { ...criteria, "amenities.aidKit": true }
+    if (publicTransport) criteria = { ...criteria, "amenities.publicTransport": true }
     return criteria
 }
