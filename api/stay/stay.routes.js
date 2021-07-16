@@ -5,7 +5,7 @@ const router = express.Router()
 router.get('/', getStays)
 router.get('/:id', getStay)
 router.put('/:id', updateStay)
-router.post('/:id', addStay)
+router.post('/', addStay)
 router.delete('/:id', deleteStay)
 
 module.exports = router

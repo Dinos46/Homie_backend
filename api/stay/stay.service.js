@@ -53,7 +53,6 @@ async function addReview(id, review) {
 }
 
 async function update(stay) {
-    // console.log('BBB', stay)
     try {
         // peek only updatable fields!
         const stayToSave = {
@@ -62,7 +61,6 @@ async function update(stay) {
         }
         const collection = await dbService.getCollection('stay')
         await collection.updateOne({ '_id': stayToSave._id }, { $set: stayToSave })
-        // console.log(stay)
         return stayToSave;
     } catch (err) {
         logger.error(`cannot update stay ${stay._id}`, err)
