@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 6/8/2021, 11:22:07 AM - INFO - Server is running on port: 3030 
 6/8/2021, 11:26:11 AM - INFO - Server is running on port: 3030 
 6/8/2021, 12:44:19 PM - INFO - Server is running on port: 3030 
@@ -23,3 +24,27 @@
 6/21/2021, 10:24:36 PM - INFO - Server is running on port: 3030 
 6/21/2021, 10:33:08 PM - INFO - Server is running on port: 3030 
 7/15/2021, 6:57:48 PM - INFO - Server is running on port: 3030 
+=======
+15.7.2021, 20:49:36 - INFO - Server is running on port: 3030 
+16.7.2021, 9:33:56 - INFO - Server is running on port: 3030 
+16.7.2021, 9:38:42 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:38:42 - ERROR - Failed to get stay | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:38:43 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:38:43 - ERROR - Failed to get stay | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:39:19 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:39:19 - ERROR - Failed to get stay | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:39:22 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:39:22 - ERROR - Failed to get stay | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:39:24 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:39:24 - ERROR - Failed to get stay | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:39:56 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:39:56 - ERROR - Failed to get stay | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.7.2021, 9:57:38 - INFO - Server is running on port: 3030 
+16.7.2021, 9:58:45 - INFO - Server is running on port: 3030 
+16.7.2021, 10:02:29 - INFO - Server is running on port: 3030 
+16.7.2021, 10:05:31 - INFO - Server is running on port: 3030 
+16.7.2021, 10:24:39 - INFO - Server is running on port: 3030 
+16.7.2021, 10:29:17 - INFO - Server is running on port: 3030 
+16.7.2021, 10:47:32 - INFO - Server is running on port: 3030 
+16.7.2021, 10:47:55 - INFO - Server is running on port: 3030 
+>>>>>>> 56b7229af82a908f42090081e690f3d43e6cf4e4

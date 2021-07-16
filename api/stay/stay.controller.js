@@ -1,5 +1,5 @@
 const stayService = require('./stay.service')
-const socketService = require('../../services/socket.service')
+// const socketService = require('../../services/socket.service')
 const logger = require('../../services/logger.service')
 
 async function getStay(req, res) {
@@ -13,7 +13,6 @@ async function getStay(req, res) {
 }
 
 async function getStays(req, res) {
-
     try {
         const filterBy = {
             city: req.query?.city || '',
@@ -25,7 +24,6 @@ async function getStays(req, res) {
 
             minPrice: +req.query?.minPrice || 0,
             maxPrice: +req.query?.maxPrice || 1500,
-            
             tv: req.query?.tv || '',
             wifi: req.query?.wifi || '',
             kitchen: req.query?.kitchen || '',
@@ -40,7 +38,6 @@ async function getStays(req, res) {
         const stays = await stayService.query(filterBy)
         res.send(stays)
     } catch (err) {
-
         logger.error('Failed to get stays', err)
         res.status(500).send({ err: 'Failed to get stays' })
     }
@@ -73,7 +70,7 @@ async function updateStay(req, res) {
         const stay = req.body
         const savedStay = await stayService.update(stay)
         res.send(savedStay)
-        // socketService.broadcast({type: 'stay-updated', data: , to:savedStay._id})
+        // socketService.broadcast({type: 'stay-updated', data: , to:savedStay._id}) 
     } catch (err) {
         logger.error('Failed to update stay', err)
         res.status(500).send({ err: 'Failed to update stay' })
@@ -85,5 +82,5 @@ module.exports = {
     getStay,
     deleteStay,
     updateStay,
-    addStay
+    addStay,
 }
