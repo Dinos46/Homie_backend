@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /logs
+/backend.log
 /.pnp
 .pnp.js
 

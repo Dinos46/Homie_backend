@@ -7,8 +7,7 @@ module.exports = {
     getById,
     remove,
     update,
-    add,
-    addReview
+    add
 }
 
 async function query(filterBy = {}) {
@@ -44,16 +43,7 @@ async function remove(stayId) {
     }
 }
 
-async function addReview(id, review) {
-    try {
-        console.log('BACKSERV', id, review)
-    } catch (err) {
-        console.log('cant add review', err)
-    }
-}
-
 async function update(stay) {
-    // console.log('BBB', stay)
     try {
         // peek only updatable fields!
         const stayToSave = {
@@ -62,7 +52,6 @@ async function update(stay) {
         }
         const collection = await dbService.getCollection('stay')
         await collection.updateOne({ '_id': stayToSave._id }, { $set: stayToSave })
-        // console.log(stay)
         return stayToSave;
     } catch (err) {
         logger.error(`cannot update stay ${stay._id}`, err)
